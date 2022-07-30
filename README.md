@@ -30,3 +30,16 @@ $ docker-compose down
 ```
 $ docker-compose logs --tail=[number] -f [container]
 ```
+
+## .env file example
+
+```
+MYSQL_USER=sampleuser
+MYSQL_PASSWORD=samplepassword
+MYSQL_DATABASE=sampledb
+
+MYSQL_HOST=localhost
+MYSQL_ROOT_PASSWORD=root
+```
+
+
